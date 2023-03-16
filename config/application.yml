@@ -1,0 +1,2 @@
+SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/your-slack-token"
+SLACK_WEBHOOK_CHANNEL: "#channel-name"

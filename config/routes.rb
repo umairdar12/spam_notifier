@@ -3,4 +3,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  namespace :webhooks do
+    post '/bounce' => 'bounce#handle'
+  end
+
 end
